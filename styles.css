@@ -1,16 +1,29 @@
 #app{
   height:90vh;
 }
+#ptag{
+	color:skyblue;
+}
 .night{
   background-color: black;
-  color:white;
+  color:skyblue;
+}
+.day{
+	background-color: white;
+    color:skyblue;
 }
 
 #swap{
   outline:0;
 }
 
-.button_night{
-  background-color:blue;
-  color:white; 
+.button_day {
+  background-color: lightgray;
+  color: black;
+}
+
+/* Button style for night theme */
+.button_night {
+  background-color: darkgray;
+  color: white;
 }
